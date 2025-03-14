@@ -1,0 +1,36 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px 60px;
+}
+
+.header__title {
+    font-size: 65px;
+    font-family: "RobotoBold", Arial, Helvetica, sans-serif;
+}
+
+.header__nav {
+    margin: 20px;
+}
+
+.header__links {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+
+.header__link-option {
+    list-style-type: none;
+}
+
+.header__link-item {
+    text-decoration: none;
+    font-size: 32px;
+    font-family: "RobotoBold", Arial, Helvetica, sans-serif;
+    color: black;
+    opacity: 70%;
+    
+}
+
